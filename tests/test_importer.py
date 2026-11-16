@@ -1,5 +1,9 @@
 import sys
 import types as pytypes
+
+import pytest
+
+pytest.importorskip("rom_hub_sdk")
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
