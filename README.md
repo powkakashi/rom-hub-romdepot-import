@@ -37,6 +37,7 @@ which `[permissions] network` already allowlists.
 Both are host-side policy decisions, not plugin bugs — patch them locally or wait
 for upstream. Without them this plugin still *searches*; it cannot import.
 
-## Tests
+## Verified
 
-    python3 -m pytest tests -q
+Live: `rom-hub import romdepot-import "Nintendo DS/US/Uno 52 (U).zip" --platform nds`
+-> RomM row 15028; and a grab from ROMarr's search the same way (row 15027).
