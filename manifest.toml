@@ -24,4 +24,4 @@ catalog_path = { type = "str", default = "" }
 collection   = { type = "str", default = "The ROM Depot" }
 # The operator's own session, exported from a signed-in browser. The host only
 # sends it to theromdepot.com, which this manifest already allowlists.
-session_cookie = { type = "secret", default = "" }
+session_cookie = { type = "secret" }
